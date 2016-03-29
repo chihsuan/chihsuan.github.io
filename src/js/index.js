@@ -57,14 +57,14 @@
    * */
   function AppViewModel() {
     var self = this;
-    self.name = ko.observable('');
-    self.title = ko.observable('');
-    self.skills = ko.observable('');
+    self.name = ko.observable('CHI-HSUAN HUANG');
+    self.title = ko.observable('Front-End Web Developer');
+    self.skills = ko.observable('Javascript, Data Visualization, Python, Node.js');
     self.aboutMe = ko.observable('');
-    self.linkedin = ko.observable('');
+    self.linkedin = ko.observable('https://www.linkedin.com/in/chihsuanhuang/');
     self.twitter  = ko.observable('');
-    self.email = ko.observable('');
-    self.github = ko.observable('');
+    self.email = ko.observable('mailto:chihsuan.tw@gmail.com');
+    self.github = ko.observable('https://github.com/chihsuan');
     self.location = ko.observable('');
     self.publications = ko.observableArray([]);
     self.education = ko.observableArray([]);
